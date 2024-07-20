@@ -1,5 +1,6 @@
 /* General typography */
 html {
+	height: 100vh;
 	background: radial-gradient(rgb(206, 158, 199), rgb(138, 170, 225));
 }
 

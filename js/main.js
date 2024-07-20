@@ -13,6 +13,8 @@ const $loginForm = $("#login-form");
 const $signupForm = $("#signup-form");
 const $submitForm = $("#submit-form");
 
+const $userProfile = $("#user-profile");
+
 const $navLogin = $("#nav-login");
 const $navUserProfile = $("#nav-user-profile");
 const $navLogOut = $("#nav-logout");
@@ -37,6 +39,7 @@ function hidePageComponents() {
 		$loginForm,
 		$signupForm,
 		$submitForm,
+		$userProfile,
 	];
 	components.forEach((c) => c.hide());
 }

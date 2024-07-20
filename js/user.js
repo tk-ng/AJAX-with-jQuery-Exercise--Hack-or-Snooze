@@ -114,4 +114,13 @@ function updateUIOnUserLogin() {
 	$allStoriesList.show();
 
 	updateNavOnLogin();
+	generateUserProfile();
+}
+
+function generateUserProfile() {
+	console.debug("generateUserProfile");
+
+	$("#profile-name").text(currentUser.name);
+	$("#profile-username").text(currentUser.username);
+	$("#profile-account-created-date").text(currentUser.createdAt.slice(0, 10));
 }
